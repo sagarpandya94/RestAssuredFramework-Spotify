@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f97f0d2b-bf15-48a4-82c5-0f2b457b1753" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spotify/oauth2/tests/PlaylistTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2aC14av3MPin5iq3OKISugojrzD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.PlaylistTests.ShouldNotBeAbleToCreatePlaylistWithExpiredToken">
+    <configuration name="PlaylistTests.ShouldBeAbleToCreatePlaylist" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredFramework-Spotify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spotify.oauth2.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spotify.oauth2.tests" />
+      <option name="MAIN_CLASS_NAME" value="spotify.oauth2.tests.PlaylistTests" />
+      <option name="METHOD_NAME" value="ShouldBeAbleToCreatePlaylist" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaylistTests.ShouldBeAbleToGetPlaylist" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredFramework-Spotify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spotify.oauth2.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spotify.oauth2.tests" />
+      <option name="MAIN_CLASS_NAME" value="spotify.oauth2.tests.PlaylistTests" />
+      <option name="METHOD_NAME" value="ShouldBeAbleToGetPlaylist" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaylistTests.ShouldBeAbleToUpdatePlaylist" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredFramework-Spotify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spotify.oauth2.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spotify.oauth2.tests" />
+      <option name="MAIN_CLASS_NAME" value="spotify.oauth2.tests.PlaylistTests" />
+      <option name="METHOD_NAME" value="ShouldBeAbleToUpdatePlaylist" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaylistTests.ShouldNotBeAbleToCreatePlaylistWithExpiredToken" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredFramework-Spotify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spotify.oauth2.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spotify.oauth2.tests" />
+      <option name="MAIN_CLASS_NAME" value="spotify.oauth2.tests.PlaylistTests" />
+      <option name="METHOD_NAME" value="ShouldNotBeAbleToCreatePlaylistWithExpiredToken" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaylistTests.ShouldNotBeAbleToCreatePlaylistWithoutName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredFramework-Spotify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spotify.oauth2.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spotify.oauth2.tests" />
+      <option name="MAIN_CLASS_NAME" value="spotify.oauth2.tests.PlaylistTests" />
+      <option name="METHOD_NAME" value="ShouldNotBeAbleToCreatePlaylistWithoutName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.PlaylistTests.ShouldNotBeAbleToCreatePlaylistWithExpiredToken" />
+        <item itemvalue="TestNG.PlaylistTests.ShouldNotBeAbleToCreatePlaylistWithoutName" />
+        <item itemvalue="TestNG.PlaylistTests.ShouldBeAbleToUpdatePlaylist" />
+        <item itemvalue="TestNG.PlaylistTests.ShouldBeAbleToGetPlaylist" />
+        <item itemvalue="TestNG.PlaylistTests.ShouldBeAbleToCreatePlaylist" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f97f0d2b-bf15-48a4-82c5-0f2b457b1753" name="Changes" comment="" />
+      <created>1703807559251</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703807559251</updated>
+    </task>
+    <servers />
+  </component>
+</project>
