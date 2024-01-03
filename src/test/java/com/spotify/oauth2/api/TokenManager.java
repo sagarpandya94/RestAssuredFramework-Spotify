@@ -1,34 +1,52 @@
 package com.spotify.oauth2.api;
 
+import com.spotify.oauth2.utils.ConfigLoader;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
+import java.time.Instant;
 import java.util.HashMap;
 
 import static com.spotify.oauth2.api.SpecBuilder.getResponseSpec;
 import static io.restassured.RestAssured.given;
 
 public class TokenManager {
-    public static String renewToken(){
-        HashMap<String,String> formParams = new HashMap<>();
-        formParams.put("client_id","10cc81c7b9bd4e1e8e61ffe7e637fc04");
-        formParams.put("client_secret","f8f8152a11234c66aeaf38701e87802a");
-        formParams.put("refresh_token","AQAjFBF7kGuN_POBEoZCKxxfzQQCF8D4GRBc62rw5ajW4AksTv376byCTws75xysyABAoCOGA3Xaxp-XUeyd9K3p9_257Ueqre9_c21b1STQ735I-acHLPWXM439SbbFhAI");
-        formParams.put("grant_type","refresh_token");
+    private static String access_token;
+    private static Instant expiry_time;
 
-        Response response =
-        given().
-                basePath("https://accounts.spotify.com").
-                formParams(formParams).
-                contentType(ContentType.URLENC).
-        when().
-                post("/api/token").
-        then().spec(getResponseSpec()).extract().response();
+    public synchronized static String getToken(){
+        try{
+            if(expiry_time==null || Instant.now().isAfter(expiry_time)){
+                System.out.println("Renewing token...");
+                Response response = renewToken();
+                access_token = response.path("access_token");
+                int expiryDurataionInSeconds = response.path("expires_in");
+                expiry_time= Instant.now().plusSeconds(expiryDurataionInSeconds - 300);
+            }
+            else {
+                System.out.println("Token is good to use.");
+            }
+        }
+        catch (Exception e){
+            throw new RuntimeException(e.getMessage());
+        }
+        return access_token;
+    }
+
+
+    private static Response renewToken(){
+        HashMap<String,String> formParams = new HashMap<>();
+        formParams.put("client_id", ConfigLoader.getInstance().getClientId());
+        formParams.put("client_secret",ConfigLoader.getInstance().getClientSecret());
+        formParams.put("refresh_token",ConfigLoader.getInstance().getRefreshToken());
+        formParams.put("grant_type",ConfigLoader.getInstance().getGrantType());
+
+        Response response = RestResource.postAccount(formParams);
+
 
         if(response.statusCode() != 200)
             throw new RuntimeException("Renewal failed");
 
-        return response.path("access_token");
+        return response;
     }
-
 }

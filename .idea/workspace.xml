@@ -5,21 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f97f0d2b-bf15-48a4-82c5-0f2b457b1753" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/RestResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/SpecBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/TokenManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/applicationApi/PlaylistApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/pojo/Error.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/pojo/ErrorRoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/pojo/ExternalUrls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/pojo/ExternalUrls__1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/pojo/Followers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/pojo/Owner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/pojo/Playlist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/pojo/Tracks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/Route.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/tests/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/utils/ConfigLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/utils/DataLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/utils/FakerUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/utils/PropertyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/spotify/oauth2/tests/PlaylistTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/tests/PlaylistTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/RestResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/RestResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/SpecBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/SpecBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/TokenManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/TokenManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/applicationApi/PlaylistApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/api/applicationApi/PlaylistApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/pojo/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/pojo/Playlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/pojo/Tracks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/pojo/Tracks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/tests/PlaylistTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/oauth2/tests/PlaylistTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,24 +41,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2aC14av3MPin5iq3OKISugojrzD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.spotify.oauth2.utils" />
       <recent name="com.spotify.oauth2.api" />
     </key>
   </component>
@@ -75,17 +85,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlaylistTests.ShouldBeAbleToUpdatePlaylist" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaylistTests.ShouldBeAbleToCreatePlaylist" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredFramework-Spotify" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spotify.oauth2.tests.*" />
+          <option name="PATTERN" value="com.spotify.oauth2.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="spotify.oauth2.tests" />
-      <option name="MAIN_CLASS_NAME" value="spotify.oauth2.tests.PlaylistTests" />
-      <option name="METHOD_NAME" value="ShouldBeAbleToUpdatePlaylist" />
+      <option name="PACKAGE_NAME" value="com.spotify.oauth2.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.spotify.oauth2.tests.PlaylistTests" />
+      <option name="METHOD_NAME" value="ShouldBeAbleToCreatePlaylist" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -150,10 +160,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.PlaylistTests" />
+        <item itemvalue="TestNG.PlaylistTests.ShouldBeAbleToCreatePlaylist" />
         <item itemvalue="TestNG.PlaylistTests.ShouldNotBeAbleToCreatePlaylistWithExpiredToken (1)" />
         <item itemvalue="TestNG.PlaylistTests.ShouldNotBeAbleToCreatePlaylistWithExpiredToken" />
         <item itemvalue="TestNG.PlaylistTests.ShouldNotBeAbleToCreatePlaylistWithoutName" />
-        <item itemvalue="TestNG.PlaylistTests.ShouldBeAbleToUpdatePlaylist" />
       </list>
     </recent_temporary>
   </component>
@@ -174,11 +184,30 @@
       <option name="project" value="LOCAL" />
       <updated>1703814630437</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactored the code to have more abstraction and added pojos.">
+      <option name="closed" value="true" />
+      <created>1703832394469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703832394469</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating new project for spotify and adding initial test cases." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating new project for spotify and adding initial test cases." />
+    <MESSAGE value="Refactored the code to have more abstraction and added pojos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored the code to have more abstraction and added pojos." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ExceptionInInitializerError" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
